@@ -1,0 +1,18 @@
+name: Security assessment deployment
+
+include:
+  - path: wazuh-single-node/docker-compose.yml
+
+services:
+  nessus:
+    image: tenable/nessus:10.8.3-ubuntu
+    ports:
+      - "8834:8834"
+    environment:
+      USERNAME: admin
+      PASSWORD: admin
+    volumes:
+      - nessus:/nessus
+
+volumes:
+  nessus:
