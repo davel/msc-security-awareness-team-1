@@ -10,6 +10,11 @@ On Linux,
 docker-compose up
 ```
 
+And then,
+
+* Wazuh https://127.0.0.1:443/
+* Nessus https://127.0.0.1:8843/
+
 ## Memory pages
 
 Wazuh is very hungry for memory pages and will use more than are available by
