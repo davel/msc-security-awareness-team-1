@@ -13,7 +13,7 @@ docker-compose up
 And then,
 
 * Wazuh https://127.0.0.1:443/
-* Nessus https://127.0.0.1:8843/
+* Nessus http://127.0.0.1:9392/
 
 ## Memory pages
 
@@ -25,3 +25,12 @@ https://documentation.wazuh.com/current/deployment-options/docker/docker-install
 
 Instructions for Windows,
 https://stackoverflow.com/a/69522855
+
+## Documentation
+
+https://documentation.wazuh.com/current/deployment-options/docker/wazuh-container.html
+We have a "single node" deployment.
+
+https://greenbone.github.io/docs/latest/22.4/container/index.html
+
+
