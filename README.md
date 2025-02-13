@@ -1,4 +1,4 @@
-# Wazuh and Nessus in Docker
+# Wazuh and OpenVAS in Docker
 
 To bring up on Windows using Docker Desktop,
 ```
@@ -13,7 +13,7 @@ docker-compose up
 And then,
 
 * Wazuh https://127.0.0.1:443/
-* Nessus http://127.0.0.1:9392/
+* OpenVAS http://127.0.0.1:9392/
 
 ## Memory pages
 
