@@ -1,4 +1,4 @@
-name: Security assessment deployment
+name: security-assessment-deployment
 
 include:
   - path: wazuh-single-node/docker-compose.yml
