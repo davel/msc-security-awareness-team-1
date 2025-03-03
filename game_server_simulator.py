@@ -4,6 +4,7 @@ import random
 import datetime
 import threading
 import subprocess
+import math
 
 game_server_proc = subprocess.Popen(
     ["logger", "-t", "game_server"], stdin=subprocess.PIPE, text=True, bufsize=0
@@ -176,7 +177,13 @@ def simulate_random_player_action():
         simulate_xss_attack,
     ]
     random.choice(actions)()
-    time.sleep(random.randint(1, 5))
+
+
+    now = datetime.datetime.now()
+    midnight = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    seconds = (now - midnight).seconds
+
+    time.sleep(random.randint(1, 3)*(1+math.sin((seconds * 2.0 * math.pi) / 86400.0)))
 
 
 # Function to simulate multiple players
