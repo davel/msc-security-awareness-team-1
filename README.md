@@ -18,7 +18,8 @@ And then,
 ## Memory pages
 
 Wazuh is very hungry for memory pages and will use more than are available by
-default. Your Docker host probably needs configuring.
+default. Your Docker host might need configuring. (Ubuntu 24.04's defaults
+didi not need changing however.)
 
 Instructions for Linux,
 https://documentation.wazuh.com/current/deployment-options/docker/docker-installation.html#increase-max-map-count-on-your-host-linux
@@ -32,5 +33,3 @@ https://documentation.wazuh.com/current/deployment-options/docker/wazuh-containe
 We have a "single node" deployment.
 
 https://greenbone.github.io/docs/latest/22.4/container/index.html
-
-
