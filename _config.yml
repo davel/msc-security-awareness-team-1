@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: Security Assessment Team 1
+description: Documentation for the Wazuh and OpenVAS build
+source: docs/
