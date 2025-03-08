@@ -5,7 +5,10 @@ reporting".
 
 Much searching online finds that some people have asked about doing this,
 however there is no sign in the documentation of both tools they it is a
-existing feature.
+existing feature. Wazuh is able to
+[parse syslog entries](https://github.com/wazuh/wazuh-ruleset/blob/master/decoders/0450-openvas_decoders.xml)
+written by OpenVAS,
+but this does not include the security reports we are interested in.
 
 Curiously We found a
 [blog article](https://www.infopercept.com/blogs/supercharge-your-security-integrate-openvas-with-wazuh-for-comprehensive-vulnerability-scanning-and-threat-detection)
