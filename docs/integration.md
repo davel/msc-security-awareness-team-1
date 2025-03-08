@@ -14,7 +14,7 @@ This does not seem to exist, at least not in the Wazuh source code. The writing
 style suggests to me that the article was written with generative AI.
 
 We found that ChatGPT will also hallucinate a method to integrate the two, but
-this time give non-existant configuration parameters for Greenbone.
+this time give non-existent configuration parameters for Greenbone.
 
 Was the requirement a hallucination itself?
 
