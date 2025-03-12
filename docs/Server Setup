@@ -33,12 +33,12 @@ be performed on Wazuh and Green Bone:
 •	Denial of Service (DoS)
 
 The following pictures represent how the whole code was build and outline each of the functionalities that have been implemented. 
-Images/Python Code 1.png
-Images/Python Code 2.png
-Images/Python Code 3.png
-Images/Python Code 4.png
-Images/Python Code 5.png
-Images/Python Code 6.png
+(Images/Python Code 1.png)
+(Images/Python Code 2.png)
+(Images/Python Code 3.png)
+(Images/Python Code 4.png)
+(Images/Python Code 5.png)
+(Images/Python Code 6.png)
 
 Once the code was build and saved as .py file, then it was transferred to the servers.
 To transfer the file on the server the following commands have been used for secure transfer from Ubuntu Desktop machine as the .py code was build
