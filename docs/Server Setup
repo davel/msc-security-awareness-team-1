@@ -71,14 +71,14 @@ To do that the following command have been used:
 
 The following picture represents the configuration that have been made in order the script to start running
 and creating log entries once the server is up and running. 
-Images/Automatic Start.png
+(Images/Automatic Start.png)
 
 Once that have been included in the configuration file the next step was to enable and start the service. To do that the following commands have been used:
 •	sudo systemctl daemon-reload – to reload the configuration
 •	sudo systemctl enable game_server – to enable the script
 •	sudo systemctl start game_server – to start it
 •	sudo systemctl status game_server – to check if the script is running properly
-Images/Status.png
+(Images/Status.png)
 
 The next thing that have been done was to create two more servers like that.
 As we are using virtual environment I was able to clone it so we have ended up with three server.
@@ -95,7 +95,8 @@ To change the IP addresses on the servers the following steps have been taken:
 2.	To change the netplan and set static IP on each server:
 •	sudo nano /etc/netplan/”name of the netplan that have been given”
 3.	The following picture will show my configuration of the netplan and the setup of the IP address
-Images/Netplan.png
+(Images/Netplan.png)
+
 4.	Once the netplan have been edited according to my needs I have save it and to implement the changes fully the following command have been used:
 •	sudo netplan apply
 
