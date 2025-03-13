@@ -6,4 +6,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * [Game server setup](./Server Setup.md)
 * [Deployment documentation](./deployment.md)
 * [Wazuh agent installation](./wazuh-agent.md)
-* [Integrating problems](./integration.md)
+* [Integrating Wazuh and Greenbone](./integration.md)
