@@ -12,7 +12,12 @@ The Process for Remediation:
 
 There were many vulnerabilities identified from the scan of the game server 3 made by OpenVAS but only a few high and medium vulnerabilities were highlighted in this report since it’s not possible to go through every single one due to time factor.
 
-## Vulnerability 1: Ubuntu: Security Advisory (USN-6961-1) – exposure to denial of service
+## Vulnerability 1: Ubuntu: Security Advisory ([USN-6961-1](https://ubuntu.com/security/notices/USN-6961-1)) – exposure to denial of service
+
+* [**CVE-2023-42363**](https://www.cve.org/CVERecord?id=CVE-2023-42363)
+* [**CVE-2022-48174**](https://www.cve.org/CVERecord?id=CVE-2022-48174)
+* [**CVE-2023-42364**](https://www.cve.org/CVERecord?id=CVE-2023-42364)
+* [**CVE-2023-42365**](https://www.cve.org/CVERecord?id=CVE-2023-42365)
 
 The vulnerability has been assigned a severity score of 9.8 by OpenVAS, a High threat level, and a Quality of Detection (QoD) score of 97%. This issue arises because the remote host lacks an update for the "BusyBox" package, which leads to improper validation of user input when performing arithmetic operations. As a result, the vulnerability exposes the system to a potential Denial of Service attack if a user or automated system is tricked into processing a crafted file. Additionally, BusyBox incorrectly handles memory when evaluating certain awk expressions, further increasing the risk of denial of service.
 
@@ -23,7 +28,11 @@ Wazuh notifies the Catnip Games SOC team about the vulnerability, triggering the
 Additionally, the SOC team should conduct a review of existing security policies to ensure that input validation is enforced across all systems to prevent similar vulnerabilities in the future. They may also want to initiate a broader review of all critical software packages, ensuring they are up-to-date and properly configured to minimize the attack surface. If applicable, the team should collaborate with other departments to communicate the steps taken to mitigate the vulnerability, providing transparency and ensuring awareness across the organization. Regular vulnerability assessments should also be scheduled to identify any emerging threats or areas that may require attention to further strengthen the organization’s security posture.
 
 
-## Vulnerability 2: Ubuntu: Security Advisory (USN-6305-1) – potential exposure of data
+## Vulnerability 2: Ubuntu: Security Advisory ([USN-6305-1](https://ubuntu.com/security/notices/USN-6305-1)) – potential exposure of data
+
+
+* [**CVE-2023-3824**](https://www.cve.org/CVERecord?id=CVE-2023-3824)
+* [**CVE-2023-3823**](https://www.cve.org/CVERecord?id=CVE-2023-3823)
 
 The vulnerability has been assigned a critical severity score of 9.8 by OpenVAS, indicating a high threat level with a probability of exploitation rated at 97% (QoD score). This indicates that the vulnerability poses a significant risk to the system and could be actively exploited.
 
@@ -37,7 +46,9 @@ As a further precaution, the SOC team will enhance monitoring for any signs of a
 
 Finally, the SOC team will review the organization’s security policies and update them as necessary, focusing on secure coding practices, patch management protocols, and the proper handling of sensitive data. This review may also include training for development teams to raise awareness of best practices regarding XML and PHAR file handling. Communication about the patching efforts should be shared with relevant stakeholders to ensure transparency and to maintain confidence in the organization’s security posture.
 
-## Vulnerability 3: Ubuntu: Security Advisory (USN-6242-1) – OpenSSH weakness
+## Vulnerability 3: Ubuntu: Security Advisory ([USN-6242-1](https://ubuntu.com/security/notices/USN-6242-1)) – OpenSSH weakness
+
+* [**CVE-2023-38408**](https://www.cve.org/CVERecord?id=CVE-2023-38408)
 
 This vulnerability has been assigned a severity score of 9.8 by OpenVAS, indicating a high threat level with a QoD score of 97%. Such a high severity score suggests a critical security risk that requires immediate attention and remediation.
 
@@ -53,7 +64,9 @@ The SOC team will also verify that strict access controls and monitoring are in 
 
 To prevent future vulnerabilities, the SOC team will review the patch management process and consider implementing automated patching for critical security updates to ensure timely remediation of similar flaws in the future. Communication about the steps taken to mitigate the vulnerability should be shared with relevant stakeholders, ensuring transparency and a clear understanding of the actions taken to safeguard the organization’s infrastructure. Finally, a post-remediation audit should be conducted to ensure all systems are secure and that no remnants of the vulnerability remain active within the environment.
 
-## Vulnerability 4: Ubuntu: Security Advisory (USN-7064-1) – exposure to potential escalation of privileges by attacker
+## Vulnerability 4: Ubuntu: Security Advisory ([USN-7064-1](https://ubuntu.com/security/notices/USN-7064-1)) – exposure to potential escalation of privileges by attacker
+
+* [**CVE-2024-5742**](https://www.cve.org/CVERecord?id=CVE-2024-5742)
 
 This vulnerability has been assigned a severity score of 6.7 by OpenVAS, which classifies it as a medium threat level with a QoD score of 97%. While the severity is not as high as other critical vulnerabilities, it still poses a significant security risk that could lead to exploitation, particularly in environments where sensitive data or elevated privileges are present.
 
