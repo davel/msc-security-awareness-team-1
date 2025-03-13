@@ -74,10 +74,10 @@ and creating log entries once the server is up and running.
 ![image](./Images/Automatic Start.png)
 
 Once that have been included in the configuration file the next step was to enable and start the service. To do that the following commands have been used:
-* `sudo systemctl daemon-reload – to reload the configuration`
-* `sudo systemctl enable game_server – to enable the script`
-* `sudo systemctl start game_server – to start it`
-* `sudo systemctl status game_server – to check if the script is running properly`
+* `sudo systemctl daemon-reload` – to reload the configuration
+* `sudo systemctl enable game_server` – to enable the script
+* `sudo systemctl start game_server` – to start it
+* `sudo systemctl status game_server` – to check if the script is running properly
 ![image](Images/Status.png)
 
 The next thing that have been done was to create two more servers like that.
