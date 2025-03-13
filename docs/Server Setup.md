@@ -1,7 +1,7 @@
 # Security Automation – Setting up servers for scanning
 
 As part of the project that have been assigned to us we were required to have a Game Servers that shows different  logs and attacks against them,
-so when scanned with Wazuh and Green Bone.
+so when scanned with Wazuh and Greenbone.
 
 The steps that have been taken to create the servers are as follow:
 * Creating a Python code that generates logs of attacks against the server and player activities.
@@ -23,7 +23,7 @@ Player activities – the following are list of the activities that the code gen
 * Simulate game events which are based on NPS interaction and players
 
 Attacks – the attacks that will be simulated in the servers are as follow and the outcome from them will be used in the scans which will
-be performed on Wazuh and Green Bone:
+be performed on Wazuh and Greenbone:
 * Brute force
 * SQL injection
 * XSS (Cross-scripting) 
@@ -87,7 +87,7 @@ In a real case scenario the same steps will have to be performed for each indivi
 Once I had all three of them the next thing was to assign them the proper IP addresses as if they all had the same IP simply they won’t work
 as it will create interference. First what I did was to add second network card in each of them.
 The first card was left on NAT so the servers can get network access and the second one was set to Bridged adapter so it can communicate with the Wazuh
-and Green Bone scanners. 
+and Greenbone scanners. 
 
 To change the IP addresses on the servers the following steps have been taken:
 1.	Locate the netplan of the server – to do that the following command have been used:
