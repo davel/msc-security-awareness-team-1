@@ -50,7 +50,7 @@ deployment we have used Linux.
 
 #### Running under Windows
 
-For development, the 
+For development, we could run the system under Windows using Docker.
 
 One of the applications contained within Wazuh is
 [OpenSearch](https://opensearch.org/). This requires an exceptionally large
