@@ -9,7 +9,7 @@ The steps that have been taken to create the servers are as follow:
 * Assigning the IP addresses for each server
 
 Creating the Python code – the code that have been created have two main parts:
-1.	To generate Players activities on the servers and store hem in the log file 
+1.	To generate Players activities on the servers and store them in the log file 
 2.	To generate the Attacks against the servers and also store them in the log file
 
 Player activities – the following are list of the activities that the code generates in the log files of the server once they are powered on:
@@ -262,7 +262,7 @@ game_thread.join()
 attack_thread.join()
 ```
 
-Once the code was build and saved as .py file, then it was transferred to the servers.
+Once the code was built and saved as .py file, then it was transferred to the servers.
 To transfer the file on the server the following commands have been used for secure transfer from Ubuntu Desktop machine as the .py code was build
 in a desktop environment:
 *  `sftp student@192.168.123.30` - that was the IP of the server at the time. 
@@ -323,7 +323,7 @@ To change the IP addresses on the servers the following steps have been taken:
  * `sudo netplan apply`
 
 By doing this steps on each server individually I have successfully changed the IP addresses and they were ready for the Wazuh agent to be installed on them.
-Wazuh agent is need on each individual machine so the Manager can retrieve data from them. To be able to install the agent the following command 
+Wazuh agent is needed on each individual machine so the Manager can retrieve data from them. To be able to install the agent the following command 
 was executed on each server:
 
 ```$ wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.10.1-1_amd64.deb && sudo WAZUH_MANAGER='192.168.112.2'
@@ -331,5 +331,5 @@ WAZUH_AGENT_NAME='name on the server that will be monitored' dpkg -i ./wazuh-age
 ```
 
 By doing so, and adding the name of the server that have to be monitored after the equal sign which is right after WAZUH_AGENT_NAME the manager
-was able to detect that server and is able to perform scans on it. This step was repeat it on each server and all three of them become visible on the
+was able to detect that server and is able to perform scans on it. This step was to repeat it on each server and all three of them become visible on the
 dashboard of Wazuh.
