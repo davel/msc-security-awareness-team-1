@@ -8,3 +8,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * [Deployment documentation](./deployment.md)
 * [Wazuh agent installation](./wazuh-agent.md)
 * [Integrating Wazuh and Greenbone](./integration.md)
+
+* [Automated Greenbone scan report](./Images/report-df525010-8beb-40d4-9247-a22abb69ed49.pdf)
