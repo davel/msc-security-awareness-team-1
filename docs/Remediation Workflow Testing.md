@@ -82,8 +82,6 @@ The remediation workflow testing for Catnip Games International has demonstrated
 
 # References
 
-* BusyBox, Accessed 20/02/2025 [https://en.wikipedia.org/wiki/BusyBox](https://en.wikipedia.org/wiki/BusyBox)
-
+* Wikipedia. (2020). _BusyBox._ Available at: [https://en.wikipedia.org/wiki/BusyBox](https://en.wikipedia.org/wiki/BusyBox) (Accessed: February 20, 2025).
 * Ward, B. (2015) _How Linux works : what every superuser should know._ Second edition. San Francisco, CA: No Starch Press. Available at: [https://learning.oreilly.com/library/view/how-linux-works/9781098128913/f03.xhtml](https://learning.oreilly.com/library/view/how-linux-works/9781098128913/f03.xhtml) (Accessed: February 2, 2025).
-
 * Smith, M. (2025) _PHP crash course : a hands-on introduction to programming._ San Francisco: No Starch Press. Available at: [https://learning.oreilly.com/library/view/php-crash-course/9798341620049/xhtml/copyright.xhtml](https://learning.oreilly.com/library/view/php-crash-course/9798341620049/xhtml/copyright.xhtml) (Accessed: March 3, 2025).
