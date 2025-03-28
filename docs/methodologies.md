@@ -27,7 +27,7 @@ More details for the risk methodology method above are in our breakdown of the W
 
 ## 1. Conceptualization & Planning
 
-At the start of the PLC, the focus was on understanding the requirements and planning the integration of OpenVAS with Wazuh. This stage includes:
+At the start of the product lifecycle, the focus was on understanding the requirements and planning the integration of OpenVAS with Wazuh. This stage includes:
 
 - **Identifying Needs**: In this phase, we identified the need for integrating OpenVAS with Wazuh to provide enhanced vulnerability management and security monitoring. The goal was to be able to automate the detection of vulnerabilities and categorize them.
 - **Defining Scope**: We outlined the objectives, such as improving vulnerability visibility, making reporting easier, and automating detection of vulnerabilities.
