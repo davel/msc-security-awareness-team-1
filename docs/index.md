@@ -2,6 +2,7 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+* [CIS Benchmarking Report](./CISBenchmarksForWazuh.pdf)
 * [Risk methodologies](./methodologies.md)
 * [Screenshots of Greenbone and Wazuh](./screenshots.md)
 * [Remediation](./Remediation Workflow Testing.md)
@@ -11,3 +12,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * [Integrating Wazuh and Greenbone](./integration.md)
 
 * [Automated Greenbone scan report](./Images/report-df525010-8beb-40d4-9247-a22abb69ed49.pdf)
+* [Screenshots of CIS benchmarking](./cis-screenshots.md)
