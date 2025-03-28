@@ -25,6 +25,9 @@
 ![](Images/Screenshots/wazuh_failed_login_dashboard.png)
 *Dashboard configured in Wazuh.*
 
+![](Images/Screenshots/wazuh_cis_benchmark.png)
+*CIS benchmark report produced by Wazuh.*
+
 ![](Images/Screenshots/wazuh_failed_login_graph.png)
 *Graph of failed login attempts over item.*
 
