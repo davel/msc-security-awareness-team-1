@@ -5,6 +5,9 @@ Agile methodology is an iterative approach to projects where tasks are broken do
 
 To succeed using this method, we had to communicate with each other both using GitHub and WhatsApp. Through GitHub, we were able to commit our progress for all team members to access. Weekly meetings were held to review progress on our tasks and envision which tasks should be completed next, giving everyone an insight into what percentage of the project had been finished. This allowed for us to make improvements for the near future on tasks at hand, so that we could make improvements before starting the next set of tasks. We also had a group chat where we were able to give each other updates on what tasks were in progress, so that we could effectively communicate on tasks at hand.
 
+By using Agile methodology for project management and implementing a risk-based approach to security, we ensured that the was efficient and secure. The collaboration between the team, constant communication, and continuous feedback throughout the project allowed us to complete the integration successfully while managing risks effectively. This approach not only enhanced the system’s vulnerability detection capabilities but also contributed to the overall security posture of the environment.
+
+
 ---
 
 # Risk Scoring Methodology
@@ -17,8 +20,6 @@ Risk scoring is an important method to know the risks within a project and how d
 - **Critical severity** - Critical components at risk (rule 15 and higher)
 
 More details for the risk methodology method above are in our breakdown of the Wazuh rule classification.
-
-By using Agile methodology for project management and implementing a risk-based approach to security, we ensured that the integration of OpenVAS into Wazuh was efficient and secure. The collaboration between the team, constant communication, and continuous feedback throughout the project allowed us to complete the integration successfully while managing risks effectively. This approach not only enhanced the system’s vulnerability detection capabilities but also contributed to the overall security posture of the environment.
 
 ---
 
